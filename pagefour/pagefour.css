@@ -1,0 +1,46 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    min-height: 100vh; 
+    background-color: black;
+}
+
+h1 {
+    margin-top: 75px;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#blockOne {
+
+    margin-left: 700px;
+}
+
+#blockTwo {
+    
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+#blockThree {
+    
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#blockFour {
+    
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
