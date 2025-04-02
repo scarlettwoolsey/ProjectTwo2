@@ -7,14 +7,153 @@
 body { 
     width: 100%;
     min-height: 100vh; 
+    background-color: black;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
+    color: black;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
+}
+
+#tell {
+    position: relative;
+    top: -12px;
+    left: 365px;
+
+    animation-name: lineone;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#driving {
+    position: relative;
+    top: -12px;
+    left: 365px;
+
+    animation-name: linetwo;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#wrongway {
+    position: relative;
+    top: -12px;
+    left: 1400px;
+
+    animation-name: linethree;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#interstate {
+    position: relative;
+    top: -12px;
+    left: 365px;
+
+    animation-name: linefour;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#done {
+    position: relative;
+    top: -12px;
+    left: 365px;
+
+    animation-name: linefive;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+
+
+/* keyframe storage*/
+@keyframes lineone {
+    from {
+        color: black;
+        left: 0px;
+    }
+    to {
+        color: antiquewhite;
+        left: 600px;
+    }
+}
+@keyframes linetwo {
+    from {
+        color: black;
+        left: 0px;
+    }
+    to {
+        color: antiquewhite;
+        left: 600px;
+    }
+}
+
+@keyframes linethree {
+    0% {
+        color: black;
+        right: 0px;
+    }
+    50% {
+        color: antiquewhite;
+        left: 750px;
+        transform: scale(2);
+    }
+    75% {
+        color: antiquewhite;
+        left: 600px;
+        transform: scale(1.75);
+    }
+    100% {
+        color: antiquewhite;
+        left: 500px;
+        transform: scale(1.5);
+    }
+}
+
+@keyframes linefour {
+    from {
+        color: black;
+        left: 0px;
+    }
+    to {
+        color: antiquewhite;
+        left: 600px;
+    }
+}
+
+@keyframes linefive {
+    from {
+        color: black;
+        left: 0px;
+    }
+    to {
+        color: antiquewhite;
+        left: 600px;
+    }
 }
