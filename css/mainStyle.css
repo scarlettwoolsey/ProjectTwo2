@@ -7,5 +7,88 @@
 body { 
     width: 100%;
     min-height: 100vh; 
-    background-color: red;
+    background-color: black;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 300px;
+    color:antiquewhite
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+#on-ramp {
+    animation-name: rise;
+    animation-delay: 0s;
+    animation-duration: 9s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+#said {
+    animation-name: pulse;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+/* keyframe storage*/
+
+
+@keyframes rise{
+    0%{
+        top: 50px;
+    }
+    25% {
+        top: 25px;
+    }
+    50% {
+        top: 15px;
+    }
+    100% {
+        top: 50px;
+    }
+    
+    }
+
+@keyframes pulse {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(3);
+    }
+}
+
+
+/*
+     <h2> "Leonard Cohen" </h2>
+    Boygenius 
+
+ 
+    Didn't tell you you were driving the wrong way 
+    On the interstate until the song was done 
+     
+    You felt like an idiot, adding an hour to the drive 
+    But it gave us more time to embarrass ourselves 
+    Telling stories we wouldn't tell anyone else 
+    You said, "I might like you less now that you know me so well." 
+    I might like you less now that you know me so well 
+     
+    Leonard Cohen once said, "There's a crack in everything, that's how the light gets in." 
+    And I am not an old man having an existential crisis 
+    At a Buddhist monastery writing horny poetry 
+    But I agree 
+    I never thought you'd happen to me 
+    I never thought you'd happen to me */

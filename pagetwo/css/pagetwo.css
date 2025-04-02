@@ -1,0 +1,117 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    min-height: 100vh; 
+    background-color: black;
+}
+
+h1 {
+    margin-top: 300px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+#love-me {
+    position: relative;
+    top: 25px;
+    left: 350px;
+
+    animation-name: appear;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#this-song {
+    position: relative;
+    top: -12px;
+    left: 577px;
+
+    animation-name: linetwo;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#serious {
+    position: relative;
+    top: -12px;
+    left: 365px;
+
+    animation-name: linethree;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+#so-i {
+    position: relative;
+    top: -50px;
+    left: 885px;
+
+    animation-name: soI;
+    animation-delay: 0s;
+    animation-duration: 8s;
+    animation-direction: forward;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative;
+}
+
+/* keyframe storage*/
+
+@keyframes appear {
+    from {
+        color: black;
+    }
+    to {
+        color: antiquewhite;
+    }
+}
+
+@keyframes linetwo {
+    from {
+        color: black;
+    }
+    to {
+        color: antiquewhite;
+    }
+}
+@keyframes linethree {
+    from {
+        color: black;
+        left: 10px;
+    }
+    to {
+        color: antiquewhite;
+        left: 365px;
+    }
+}
+@keyframes soI {
+    from {
+        color: black;
+        top: 500px;
+    }
+    to {
+        color: antiquewhite;
+        top: -50px;
+    }
+}
