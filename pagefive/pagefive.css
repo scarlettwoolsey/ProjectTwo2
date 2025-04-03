@@ -1,0 +1,172 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    min-height: 100vh; 
+    background-color: black;
+}
+
+h1 {
+    margin-top: 50px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+
+    animation-name: link;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#blockOne {
+    margin-left: 700px;
+
+    animation-name: blockOne;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#blockTwo {
+    
+    margin-left: 450px;
+    margin-top: 50px;
+
+    animation-name: blockTwo;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#blockThree {
+    
+    margin-left: 50px;
+    margin-top: -500px;
+
+    animation-name: blockThree;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+#blockFour {
+    
+    margin-left: 50px;
+    margin-top: 50px;
+
+    animation-name: blockFour;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-direction:normal;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+/* keyframe storage */
+@keyframes blockOne {
+    0% {
+        color: antiquewhite;
+        top: -500px;
+    }
+    50% {
+        color: antiquewhite;
+        top:75px;
+    }
+    75% {
+        color: antiquewhite;
+        top: 60px;
+    }
+    100% {
+        color: antiquewhite;
+        top: 75px;
+    }
+}
+
+@keyframes blockTwo {
+    0% {
+        color: antiquewhite;
+        top: -500px;
+    }
+    50% {
+        color: antiquewhite;
+        top:75px;
+    }
+    75% {
+        color: antiquewhite;
+        top: 60px;
+    }
+    100% {
+        color: antiquewhite;
+        top: 75px;
+    }
+}
+
+@keyframes blockThree {
+    0% {
+        color: antiquewhite;
+        top: -100px;
+    }
+    50% {
+        color: antiquewhite;
+        top:650px;
+    }
+    75% {
+        color: antiquewhite;
+        top: 635px;
+    }
+    100% {
+        color: antiquewhite;
+        top: 650px;
+    }
+}
+
+@keyframes blockFour {
+    0% {
+        color: antiquewhite;
+        top: -100px;
+    }
+    50% {
+        color: antiquewhite;
+        top:650px;
+    }
+    75% {
+        color: antiquewhite;
+        top: 635px;
+    }
+    100% {
+        color: antiquewhite;
+        top: 650px;
+    }
+}
+
+@keyframes link {
+    from {
+        color: antiquewhite;
+        transform: scale(1);
+    }
+    to {
+        color: violet;
+        transform: scale(3);
+        
+    }
+}
