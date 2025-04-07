@@ -11,8 +11,8 @@
 
 # technical overview
 
-###
+### This project features text animated using both html and css in Visual Studio Code that changes colors, scale, and slides in and out of the screen. 
 
 # acknowledgment
 
-###
+### Content for this project was borrowed from the lyrics of the song "Leonard Cohen" by Boygenius.
