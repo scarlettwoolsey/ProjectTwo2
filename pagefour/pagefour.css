@@ -8,6 +8,14 @@ body {
     width: 100%;
     min-height: 100vh; 
     background-color: black;
+
+    animation-name: backgro;
+    animation-delay: 0s;
+    animation-duration: 17s;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    position: relative;
 }
 
 h1 {
@@ -167,6 +175,16 @@ a {
     to {
         color: violet;
         transform: scale(3);
+        
+    }
+}
+
+@keyframes backgro {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: navy;
         
     }
 }

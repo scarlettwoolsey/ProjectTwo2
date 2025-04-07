@@ -8,6 +8,14 @@ body {
     width: 100%;
     min-height: 100vh; 
     background-color: black;
+
+    animation-name: backgro;
+    animation-delay: 0s;
+    animation-duration: 17s;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    position: relative;
 }
 
 h1 {
@@ -32,7 +40,7 @@ a {
     margin-left: 700px;
 
     animation-name: blockOne;
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-duration: 3s;
     animation-direction:normal;
     animation-fill-mode:forwards;
@@ -85,7 +93,7 @@ a {
 /* keyframe storage */
 @keyframes blockOne {
     0% {
-        color: antiquewhite;
+        color: violet;
         top: -500px;
     }
     50% {
@@ -93,7 +101,7 @@ a {
         top:75px;
     }
     75% {
-        color: antiquewhite;
+        color: violet;
         top: 60px;
     }
     100% {
@@ -104,7 +112,7 @@ a {
 
 @keyframes blockTwo {
     0% {
-        color: antiquewhite;
+        color: violet;
         top: -500px;
     }
     50% {
@@ -112,7 +120,7 @@ a {
         top:75px;
     }
     75% {
-        color: antiquewhite;
+        color: violet;
         top: 60px;
     }
     100% {
@@ -123,15 +131,15 @@ a {
 
 @keyframes blockThree {
     0% {
-        color: antiquewhite;
-        top: -100px;
+        color: violet;
+        top: -1000px;
     }
     50% {
         color: antiquewhite;
         top:650px;
     }
     75% {
-        color: antiquewhite;
+        color: violet;
         top: 635px;
     }
     100% {
@@ -142,15 +150,15 @@ a {
 
 @keyframes blockFour {
     0% {
-        color: antiquewhite;
-        top: -100px;
+        color: violet;
+        top: -750px;
     }
     50% {
         color: antiquewhite;
         top:650px;
     }
     75% {
-        color: antiquewhite;
+        color: violet;
         top: 635px;
     }
     100% {
@@ -167,6 +175,17 @@ a {
     to {
         color: violet;
         transform: scale(3);
+        
+    }
+}
+@keyframes backgro {
+    from {
+        background-color: black;
+        transform: scale(1);
+    }
+    to {
+        background-color: navy;
+        transform: scale(0.8);
         
     }
 }
